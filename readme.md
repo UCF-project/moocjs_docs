@@ -27,4 +27,6 @@ The UCF MOOC documentation can be found at [docs/](docs/) starting by [docs/read
 
 The folder [static/](static/) has static assets of the documentation.
 
-The folder [img/](img/) has image assets of the documentation.
+The folder [img/](img/) has image assets of the documentation. The
+static folder has a symbolic link to img folder, like this the images
+will appear in both gitlab and hugo.
