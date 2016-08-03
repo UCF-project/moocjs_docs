@@ -20,3 +20,39 @@ install UCF MOOC for development.
 
 For common problems found during installation first check out the
 [troubleshooting.md](troubleshooting.md) section.
+
+## Configuring UCF
+
+Add to the file `config/application_config.yml` under the desired
+environment the section **ucf**, with **enable: true**. For example:
+
+```
+# Example of application_config.yml with UCF enabled
+
+development:
+  name: "UCF MOOC development"
+  domain: "localhost:3000"
+  test_domain: true
+  # ... any other attributes
+  ucf:
+    enable: true
+
+```
+
+## Screenshots
+
+Homepage
+
+![Screenshot of UCF MOOC Homepage](img/ucf-home.png)
+
+MOOC course editor
+
+![Screenshot of UCF MOOC course editor](img/ucf-editor.png)
+
+UCF special export inside MOOC course editor
+
+![Screenshot of UCF special export inside MOOC course editor](img/ucf-export.png)
+
+UCF settings inside MOOC course editor
+
+![Screenshot of UCF settings inside MOOC course editor](img/ucf-settings.png)

@@ -26,3 +26,5 @@ The file [config.toml](config.toml) has the Hugo configuration.
 The UCF MOOC documentation can be found at [docs/](docs/) starting by [docs/readme.md](docs/readme.md)
 
 The folder [static/](static/) has static assets of the documentation.
+
+The folder [img/](img/) has image assets of the documentation.
