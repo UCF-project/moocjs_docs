@@ -1,0 +1,77 @@
+# Hugo configuration file
+# for media tag documentation website
+# with hugo-material-docs theme
+baseurl = "http://rnd.alterway.fr/"
+languageCode = "en-us"
+title = "UCF MOOC"
+theme = "hugo-material-docs"
+enableEmoji = true
+metadataformat = "yaml"
+canonifyurls = false
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+contentdir = "docs/"
+staticdir = "static/"
+
+[params]
+	# General information
+	author = "alter way"
+	description = "UCF MOOC"
+	copyright = "TODO"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/alterway/ucf-vish"
+
+	version = "1.0.0"
+	logo = "img/logo-padded.png"
+	favicon = "img/favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = ['extra.css']
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "light-green"
+    	accent  = "brown"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "alterway"
+
+
+[[menu.main]]
+	name   = "UCF MOOC"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Docker"
+	url    = "docker.md/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Installation"
+	url    = "installation.md/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Troubleshooting"
+	url    = "troubleshooting.md/"
+	weight = 30
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
