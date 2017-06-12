@@ -1,6 +1,6 @@
-# UCF MOOC Docs
+# UCF MOOCJS Docs
 
-This is the project of UCF MOOC documentation.
+This is the project of UCF MOOCJS documentation.
 
 The documentation is in markdown format and can be served by
 [Hugo](https://gohugo.io/).
@@ -23,7 +23,7 @@ And access in any browser the URL http://localhost:1313/.
 
 The file [config.toml](config.toml) has the Hugo configuration.
 
-The UCF MOOC documentation can be found at [docs/](docs/) starting by [docs/readme.md](docs/readme.md)
+The UCF MOOCJS documentation can be found at [docs/](docs/) starting by [docs/readme.md](docs/readme.md)
 
 The folder [static/](static/) has static assets of the documentation.
 
